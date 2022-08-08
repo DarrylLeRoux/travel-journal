@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="journal">
       <Header />
+
       <section>{cardComponent}</section>
+      <hr />
     </div>
   );
 }

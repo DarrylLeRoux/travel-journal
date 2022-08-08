@@ -13,16 +13,15 @@ let Card = (props) => {
           <i>
             <FaMapMarkerAlt />
           </i>
-          <p>{props.location.toUpperCase()}</p>
+          <span className="span">{props.location.toUpperCase()}</span>
         </div>
 
         <h3>{props.title}</h3>
-        <p>
-          {props.startDate} -{props.enDate}
+        <p className="date">
+          {props.startDate} - {props.endDate}
         </p>
-        <p>{props.description}</p>
+        <p className="description">{props.description}</p>
       </div>
-      <hr className="break" />
     </div>
   );
 };

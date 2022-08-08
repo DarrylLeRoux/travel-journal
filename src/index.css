@@ -21,9 +21,9 @@ body {
 
 .journal {
   margin: 0 auto;
-  padding: 40px;
-  height: 704px;
-  width: 550px;
+  height: 80vh;
+  width: 51vw;
+  padding: 40px 40px 28px 40px;
 }
 
 .header {
@@ -43,9 +43,9 @@ body {
 }
 
 .card {
-  height: 168px;
-  width: 471px;
-  padding: 5px;
+  height: 100%;
+  width: 100%;
+  padding: 36px;
   display: flex;
   background: white;
 }
@@ -57,10 +57,23 @@ img {
   border-radius: 5px;
 }
 
+.card h3 {
+  font-size: 25px;
+}
+
+.date {
+  padding-top: 20px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.description {
+  padding-top: 10px;
+}
 .info {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 15px 0px 15px 20px;
 }
 
 .info p {
@@ -70,16 +83,20 @@ img {
 .county {
   display: flex;
   flex-direction: row;
+  font-size: 10px;
 }
 
 .country i {
   padding-top: 4px;
-  padding-right: 10px;
-  font-size: small;
+  padding-right: 4px;
+  font-size: 10px;
   color: var(--red);
 }
 
-.break {
-  stroke: Solid #black;
-  height: 2px;
+.span {
+  font-size: 10px;
+}
+
+.hr {
+  display: flex;
 }
