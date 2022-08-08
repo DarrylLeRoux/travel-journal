@@ -1,9 +1,13 @@
 import React from "react";
+import { FaGlobeAmericas } from "react-icons/fa";
 
 const Header = () => {
   return (
     <header className="header">
-      <h3>My Travel Journal</h3>
+      <i>
+        <FaGlobeAmericas />
+      </i>
+      <p>my travel journal.</p>
     </header>
   );
 };

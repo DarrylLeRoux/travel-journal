@@ -3,13 +3,13 @@ import Card from "./components/Card";
 import Header from "./components/Header";
 function App() {
   const cardComponent = data.map((item) => {
-    return <Card {...item} />;
+    return <Card key={item.id} {...item} />;
   });
 
   return (
     <div className="journal">
-      <Header className="header" />
-      <section className="card">{cardComponent}</section>
+      <Header />
+      <section>{cardComponent}</section>
     </div>
   );
 }

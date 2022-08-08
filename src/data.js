@@ -1,6 +1,7 @@
 const data = [
   {
     id: 1,
+    image: "./images/japan.jpeg",
     title: "Mount Fuji",
     location: "Japan",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -11,6 +12,7 @@ const data = [
   },
   {
     id: 2,
+    image: "./images/australia.jpeg",
     title: "Sydney Opera House",
     location: "Australia",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -21,6 +23,7 @@ const data = [
   },
   {
     id: 3,
+    image: "./images/norway.jpeg",
     title: "Geirangerfjord",
     location: "Norway",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",

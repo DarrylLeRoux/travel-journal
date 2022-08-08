@@ -1,10 +1,28 @@
+import { FaMapMarkerAlt } from "react-icons/fa";
 import React from "react";
 import data from "../data";
 
-const Card = () => {
+let Card = (props) => {
   return (
-    <div>
-      <h1>{data.title}</h1>
+    <div className="card">
+      <div className="img">
+        <img src={props.image} alt="" />
+      </div>
+      <div className="info">
+        <div className="country">
+          <i>
+            <FaMapMarkerAlt />
+          </i>
+          <p>{props.location.toUpperCase()}</p>
+        </div>
+
+        <h3>{props.title}</h3>
+        <p>
+          {props.startDate} -{props.enDate}
+        </p>
+        <p>{props.description}</p>
+      </div>
+      <hr className="break" />
     </div>
   );
 };
