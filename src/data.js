@@ -1,4 +1,4 @@
-const Data = () => [
+const data = [
   {
     id: 1,
     title: "Mount Fuji",
@@ -31,4 +31,4 @@ const Data = () => [
   },
 ];
 
-export default Data;
+export default data;
