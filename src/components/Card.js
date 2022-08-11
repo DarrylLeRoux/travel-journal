@@ -1,6 +1,5 @@
 import { FaMapMarkerAlt } from "react-icons/fa";
 import React from "react";
-import data from "../data";
 
 let Card = (props) => {
   return (
